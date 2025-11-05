@@ -228,9 +228,9 @@ body {
 
 .transaction-category {
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #1a202c;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .transaction-description {
