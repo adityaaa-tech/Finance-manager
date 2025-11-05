@@ -289,7 +289,7 @@ function App() {
                       }`}
                       data-testid={`transaction-amount-${transaction.id}`}
                     >
-                      {transaction.type === "income" ? "+" : "-"}$
+                      {transaction.type === "income" ? "+" : "-"}
                       {transaction.amount.toFixed(2)}
                     </p>
                     <div className="transaction-actions">
