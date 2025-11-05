@@ -217,7 +217,7 @@ function App() {
           <div className="summary-content">
             <p className="summary-label">Expense</p>
             <p className="summary-amount" data-testid="total-expense">
-              ${summary.total_expense.toFixed(2)}
+              {summary.total_expense.toFixed(2)}
             </p>
           </div>
         </Card>
